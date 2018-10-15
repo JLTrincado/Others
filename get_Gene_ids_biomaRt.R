@@ -2,7 +2,7 @@ args = commandArgs(trailingOnly=TRUE)
 
 #Get the gene name assoicated to the ensembl_gene_ids
 library(biomaRt)
-cat("Starting execution...")
+cat("Starting execution...\n")
 ensembl = useEnsembl(biomart="ensembl", dataset="hsapiens_gene_ensembl")
 
 #Load the list of genes
